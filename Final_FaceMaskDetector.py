@@ -5,9 +5,9 @@ import random
 
 engine = pyttsx3.init()
 '''
-face_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_mcs_mouth.xml')#cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_eye.xml')
-#mouth_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_mcs_mouth.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_mcs_mouth.xml')#cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+#mouth_cascade = cv2.CascadeClassifier('haarcascade_mcs_mouth.xml')
 
 # For user message
 font = cv2.FONT_HERSHEY_SIMPLEX
